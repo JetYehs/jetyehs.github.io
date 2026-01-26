@@ -7,6 +7,12 @@
 
 const games = [
    {
+      name: "Fiday Night Funkin' Agoti",
+      img: "/img/place-holder.jpg",
+      link: "/pages/player.html?src=/friday-night-funkin",
+      classes: "all new",
+   },
+   {
       // done
       name: "007",
       img: "/img/cover-art/007.png",
