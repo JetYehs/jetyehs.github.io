@@ -71,7 +71,7 @@ const games = [
    {
       // done
       name: "Adventure Capitalist",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/adventure-capitalist.jpg",
       link: "/pages/player.html?src=/games/adventure-capitalist/",
       classes: "all",
    },
