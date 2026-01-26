@@ -1,18 +1,4 @@
-/*
- * main.js
- *
- * Handles interactive functionality for the Jet Yeh game website.
- * Includes:
- * - Page loading bar and scroll progress ring
- * - "Go to top" button
- * - Game filtering by category
- * - Game search bar functionality
- * - Music play/pause toggle
- * - Random quote fetch and typewriter effect
- */
-
 document.addEventListener("DOMContentLoaded", () => {
-   // Loading bar
    const loadingBar = document.getElementById("loading-bar");
    loadingBar.style.width = "100%";
    setTimeout(() => {
@@ -20,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
       setTimeout(() => (loadingBar.style.display = "none"), 500);
    }, 500);
 
-   // Go to top
    const goToTopButton = document.getElementById("go-to-top-button");
    if (goToTopButton) {
       goToTopButton.addEventListener("click", () => {
@@ -28,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
    }
 
-   // Scroll percentage bar
    window.addEventListener("scroll", () => {
       const progress = document.getElementById("progress");
       const value = document.getElementById("progress-value");
@@ -40,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
    window.dispatchEvent(new Event("scroll"));
 
-   // Game filtering
    filterSelection("all");
 
    const buttons = document.getElementsByClassName("selectable");
@@ -106,7 +89,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
    };
 
-   // Music toggle
    const mySong = document.getElementById("mySong");
    const icon = document.getElementById("icon");
 
@@ -123,11 +105,6 @@ document.addEventListener("DOMContentLoaded", () => {
    }
 });
 
-/**
- * fetchQuotes()
- *
- * Fetches a random quote from a local JSON file and types it out with a typewriter effect.
- */
 async function fetchQuotes() {
    try {
       const response = await fetch("../media/quotes.json");
@@ -145,11 +122,6 @@ async function fetchQuotes() {
    }
 }
 
-/**
- * typeEffect()
- *
- * Displays text one character at a time inside a DOM element.
- */
 function typeEffect(text, elementId, delay) {
    const element = document.getElementById(elementId);
    element.innerHTML = "";

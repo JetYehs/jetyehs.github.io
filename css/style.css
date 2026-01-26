@@ -1,4 +1,4 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"); /* Icons for website */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap");
 
 #tsparticles {
@@ -25,7 +25,6 @@ body {
 }
 
 #loading-bar {
-   /* red load bar at top of screen */
    position: fixed;
    top: 0;
    left: 0;
@@ -76,7 +75,9 @@ body {
    font-size: initial;
    cursor: pointer;
    border: none;
-   transition: background-color 0.3s ease, color 0.3s ease;
+   transition:
+      background-color 0.3s ease,
+      color 0.3s ease;
 }
 
 .wrapper .sidebar ul li:hover {
@@ -116,7 +117,9 @@ body {
 .main_content {
    flex-grow: 1;
    margin-left: 200px;
-   transition: margin-left 0.3s ease, width 0.3s ease;
+   transition:
+      margin-left 0.3s ease,
+      width 0.3s ease;
 }
 
 @media (max-width: 768px) {
@@ -127,12 +130,16 @@ body {
    .main_content {
       margin-left: 0;
       width: 100%;
-      transition: margin-left 0.3s ease, width 0.3s ease;
+      transition:
+         margin-left 0.3s ease,
+         width 0.3s ease;
    }
 }
 
 .wrapper .main_content {
-   transition: margin-left 0.3s ease, width 0.3s ease;
+   transition:
+      margin-left 0.3s ease,
+      width 0.3s ease;
 }
 
 .wrapper .main_content .header {
@@ -190,7 +197,9 @@ h1 {
    margin: auto 0;
    opacity: 1;
    transform: translateY(0);
-   transition: opacity 0.3s ease, transform 0.3s ease;
+   transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
 }
 
 .left-col img {

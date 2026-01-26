@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       let link = document.querySelector("link[rel~='icon']");
       if (link) {
-         link.href = "/img/favicon-32x32.png"; // default icon
+         link.href = "/img/favicon-32x32.png";
       }
    };
 
@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
          }
       });
    } else {
-      // Fallback if disguise is on but no checkbox exists
       if (localStorage.getItem("gcDisguise") === "true") {
          enableDisguise();
       }

@@ -9,7 +9,7 @@
 }
 
 .row > * {
-   max-width: 300px; /* must be same px count as minmax */
+   max-width: 300px;
    justify-self: center;
 }
 

@@ -1,11 +1,3 @@
-/*
- * renderGames.js
- *
- * Dynamically renders the games defined in games.js into the #game-container.
- * Applies a fade-in animation with increasing delay from top to bottom.
- * Renders first 8 with 220ms delay, rest with 60ms delay.
- */
-
 const container = document.getElementById("game-container");
 
 games.forEach((game, index) => {
@@ -30,7 +22,6 @@ games.forEach((game, index) => {
    container.appendChild(div);
 });
 
-// Trigger the fade-in animation after rendering
 requestAnimationFrame(() => {
    const allGames = document.querySelectorAll(".gameDiv");
    allGames.forEach((el) => {
