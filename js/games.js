@@ -8,7 +8,7 @@
 const games = [
    {
       name: "Fiday Night Funkin' VS Agoti",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/friday-night-funkin-vs-agoti.jpg",
       link: "/pages/player.html?src=/friday-night-funkin",
       classes: "all new",
    },
@@ -22,21 +22,21 @@ const games = [
    {
       // done
       name: "1 on 1 Soccer",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/1-on-1-soccer.jpg",
       link: "/pages/player.html?src=/flash/%3Fswf%3D1on1soccer.swf",
       classes: "all multi flash",
    },
    {
       // done
       name: "2048",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/2048.jpg",
       link: "/pages/player.html?src=/games/2048/",
       classes: "all",
    },
    {
       // done
       name: "60 Seconds Burger Run",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/60-seconds-burger-run.jpg",
       link: "/pages/player.html?src=/games/60sburgerrun/",
       classes: "all",
    },
@@ -196,7 +196,7 @@ const games = [
    },
    {
       name: "Bullet Bill",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/bullet-bill.jpg",
       link: "games/flash/?swf=bulletbill.swf",
       classes: "all flash",
    },
@@ -423,8 +423,8 @@ const games = [
       classes: "all new gba",
    },
    {
-      name: "Duck Life 1",
-      img: "img/place-holder.jpg",
+      name: "Duck Life",
+      img: "img/cover-art/duck-life.jpg",
       link: "games/flash/?swf=ducklife.swf",
       classes: "all flash",
    },
