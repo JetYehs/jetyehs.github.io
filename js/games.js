@@ -63,7 +63,7 @@ const games = [
    },
    {
       // done
-      name: "Advance Wars 2",
+      name: "Advance Wars 2: Black Hole Rising",
       img: "img/cover-art/advance-wars-2.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23advancewars2",
       classes: "all gba",
@@ -92,7 +92,7 @@ const games = [
    {
       // done
       name: "Atari Anniversary Advance",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/atari-anniversary-advance.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23atari",
       classes: "all gba",
    },
@@ -171,14 +171,14 @@ const games = [
       classes: "all flash",
    },
    {
-      name: "Bomberman Max 2 Blue Advance",
-      img: "img/place-holder.jpg",
+      name: "Bomberman Max 2: Blue Advance",
+      img: "img/cover-art/bomberman-max-2.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23bomberman_max2blue",
       classes: "all gba",
    },
    {
       name: "Bomberman Tournament",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/bomberman-tournament.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23bomberman_tournament",
       classes: "all gba",
    },
@@ -253,36 +253,36 @@ const games = [
    },
    {
       // done
-      name: "Crash Bandicoot 2",
-      img: "img/place-holder.jpg",
+      name: "Crash Bandicoot 2: N-Tranced",
+      img: "img/cover-art/crash-bandicoot-2.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23cb2",
       classes: "all gba",
    },
    {
       // done
       name: "Crash Bandicoot: The Huge Adventure",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/crash-bandicoot-huge-adventure.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23cbha",
       classes: "all gba",
    },
    {
       // done
       name: "Crash Bandicoot: Ripto's Rampage",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/crash-bandicoot-ripto-rampage.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23cbprr",
       classes: "all gba",
    },
    {
       // done
-      name: "Connect Four: Perfection",
-      img: "img/place-holder.jpg",
+      name: "Connect Four / Perfection / Trouble",
+      img: "img/cover-art/connect-four-perfection-trouble.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23cfpt",
       classes: "all new gba",
    },
    {
       // done
       name: "Crash Nitro Kart",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/crash-nitro-kart.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23cnk",
       classes: "all new gba",
    },
