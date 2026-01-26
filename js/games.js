@@ -15,7 +15,7 @@ const games = [
    {
       // done
       name: "007",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/007.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23007",
       classes: "all gba",
    },
@@ -57,14 +57,14 @@ const games = [
    {
       // done
       name: "Advance Wars",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/advance-wars.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23advancewars",
       classes: "all gba",
    },
    {
       // done
       name: "Advance Wars 2",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/advance-wars-2.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23advancewars2",
       classes: "all gba",
    },
@@ -85,7 +85,7 @@ const games = [
    {
       // done
       name: "Alien Hominid",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/alien-hominid.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23alienhominid",
       classes: "all gba",
    },

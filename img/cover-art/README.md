@@ -15,6 +15,8 @@ To maintain a clean, professional, and consistent look for **Jet Yehs Unblocked 
 ### 1. No Text on Art
 The game title is already displayed in the website UI directly beneath the image. To avoid redundancy and visual clutter, **cover art images MUST NOT contain any text.** 
 
+ - **Exception: Retro Cartridge Art** > This exception is granted for games originally released on handheld consoles (e.g., **GameBoy Advance**). For these titles, using the **original cartridge label art** is encouraged to maintain authenticity. In these cases, the game title appearing on the sticker is acceptable. Art for these games can be found at https://gamefaqs.gamespot.com/
+
 ### 2. Accurate Representation
 The artwork must directly represent the actual gameplay or the main theme of the game. Avoid using "clickbait" images or unrelated generic art.
 
@@ -32,6 +34,13 @@ Choose images that are clean and easy to recognize even at a small size. Since t
 <div align=center>
 
 ![Good Example](examples/good-example.jpg)
+</div>
+
+* **GBA Exception:** The GBA cover art from the cartridge, this exception is included becuase the best way to display these games is the original art.
+
+<div align=center>
+
+![Good Example](examples/gba-example.jpg)
 </div>
 
 ## AI Policy
