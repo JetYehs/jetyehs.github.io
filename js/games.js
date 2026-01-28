@@ -78,7 +78,7 @@ const games = [
    {
       // done
       name: "Age of War",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/age-of-war.jpg",
       link: "/pages/player.html?src=/flash/%3Fswf%3Dageofwar.swf",
       classes: "all flash",
    },
@@ -288,29 +288,29 @@ const games = [
    },
    {
       // done
-      name: "Croket! 1",
-      img: "img/place-holder.jpg",
+      name: "Croket! Yume no Banker Survival!",
+      img: "img/cover-art/croket!-yume-no-banker-survival!.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23croket1",
       classes: "all gba",
    },
    {
       // done
-      name: "Croket! 2",
-      img: "img/place-holder.jpg",
+      name: "Croket! 2: Yami no Bank to Ban Joou",
+      img: "img/cover-art/croket!-2-yami-no-bank-to-ban-joou.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23croket2",
       classes: "all gba",
    },
    {
       // done
-      name: "Croket! 3",
-      img: "img/place-holder.jpg",
+      name: "Croket! 3: Granyuu Oukoku no Nazo",
+      img: "img/cover-art/croket!-3-granyuu-oukoku-no-nazo.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23croket3",
       classes: "all gba",
    },
    {
       // done
-      name: "Croket! 4",
-      img: "img/place-holder.jpg",
+      name: "Croket! 4: Bank no Mori no Mamorigami",
+      img: "img/cover-art/croket!-4-bank-no-mori-no-mamorigami.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23croket4",
       classes: "all gba",
    },
@@ -346,43 +346,43 @@ const games = [
    },
    {
       name: "Duke Nukem Advance",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/duke-nukem-advance.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dna",
       classes: "all gba",
    },
    {
       name: "Digimon Racing",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/digimon-racing.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23digimon_racing",
       classes: "all gba",
    },
    {
-      name: "Dr Mario & Puzzle League",
-      img: "img/place-holder.jpg",
+      name: "Dr. Mario / Puzzle League",
+      img: "img/cover-art/dr-mario-puzzle-league.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dmpl",
       classes: "all gba",
    },
    {
       name: "Donkey Kong Country",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/donkey-kong-country.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dkc",
       classes: "all gba",
    },
    {
-      name: "Donkey Kong Country 2",
-      img: "img/place-holder.jpg",
+      name: "Donkey Kong Country 2: Diddy's Kong Quest",
+      img: "img/cover-art/donkey-kong-country-2-diddy-kong-quest.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dkc2",
       classes: "all gba",
    },
    {
-      name: "Donkey Kong Country 3",
-      img: "img/place-holder.jpg",
+      name: "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+      img: "img/cover-art/donkey-kong-country-3-dixie-kongs-double-trouble!.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dkc3",
       classes: "all gba",
    },
    {
-      name: "Donkey Kong: King of Swing",
-      img: "img/place-holder.jpg",
+      name: "DK: King of Swing",
+      img: "img/cover-art/dk-king-of-swing.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dkkos",
       classes: "all gba",
    },
@@ -394,13 +394,13 @@ const games = [
    },
    {
       name: "Doom",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/doom.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dm",
       classes: "all gba",
    },
    {
       name: "Doom II",
-      img: "img/place-holder.jpg",
+      img: "img/cover-art/doom-ii.jpg",
       link: "/pages/player.html?src=/gba/launcher.html%23dm2",
       classes: "all gba",
    },
