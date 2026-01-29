@@ -2,7 +2,7 @@
 
 Originial Website:
 
-[Jet Yehs Unblocked Games](https://jetyehsunblocked.codehs.me/) 
+[Jet Yehs Unblocked Games](https://jetyehsunblocked.codehs.me/)
 
 <hr>
 
@@ -28,4 +28,3 @@ Originial Website:
 
 <b>V7</b>
 ![v7](img/archive/v7.png)<hr>
-

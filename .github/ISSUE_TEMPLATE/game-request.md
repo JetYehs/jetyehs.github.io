@@ -3,8 +3,7 @@ name: Game Request
 about: Suggest a game to be added
 title: "[GAME]"
 labels: game request
-assignees: ''
-
+assignees: ""
 ---
 
 **Game Title**: The name of the game you would like to request.

@@ -1,40 +1,26 @@
-/*
- * renderGames.js
- *
- * Dynamically renders the games defined in games.js into the #game-container.
- * Applies a fade-in animation with increasing delay from top to bottom.
- * Renders first 8 with 220ms delay, rest with 60ms delay.
- */
-
 const container = document.getElementById("game-container");
 
-games.forEach((game, index) => {
-   const div = document.createElement("div");
-   div.className = `column gameDiv ${game.classes}`;
-   div.setAttribute("name", game.name);
-   div.style.opacity = 0;
-   div.style.transform = "translateY(30px)";
-   div.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+if (container && Array.isArray(games)) {
+   games.forEach((game, i) => {
+      const div = document.createElement("div");
+      div.className = `column gameDiv ${game.classes}`;
+      div.setAttribute("name", game.name);
+      div.innerHTML = `<a href="${game.link}"><div class="content"><img loading="lazy" src="${game.img}" alt="${game.name}" style="width:100%"><h4>${game.name}</h4></div></a>`;
 
-   const delay = index < 8 ? index * 220 : 8 * 220 + (index - 8) * 60;
-   div.style.transitionDelay = delay + "ms";
+      Object.assign(div.style, {
+         opacity: "0",
+         transform: "translateY(30px)",
+         transition: "opacity 0.8s ease, transform 0.8s ease",
+      });
 
-   div.innerHTML = `
-      <a href="${game.link}">
-         <div class="content">
-            <img loading="lazy" src="${game.img}" alt="${game.name}" style="width:100%">
-            <h4>${game.name}</h4>
-         </div>
-      </a>
-   `;
-   container.appendChild(div);
-});
+      container.appendChild(div);
 
-// Trigger the fade-in animation after rendering
-requestAnimationFrame(() => {
-   const allGames = document.querySelectorAll(".gameDiv");
-   allGames.forEach((el) => {
-      el.style.opacity = 1;
-      el.style.transform = "translateY(0)";
+      setTimeout(
+         () => {
+            div.style.opacity = "1";
+            div.style.transform = "translateY(0)";
+         },
+         i < 8 ? i * 220 : 1760 + (i - 8) * 60,
+      );
    });
-});
+}

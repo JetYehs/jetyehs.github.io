@@ -58,7 +58,9 @@
    bottom: 0px;
    left: 230px;
    z-index: 105;
-   transition: left 0.3s ease, bottom 0.3s ease;
+   transition:
+      left 0.3s ease,
+      bottom 0.3s ease;
    border-radius: 50%;
    background-color: #212121;
    display: flex;
@@ -144,7 +146,7 @@ input[type="text"] {
    background-image: url("https://img.icons8.com/material-outlined/24/000000/search--v1.png");
    background-position: 10px 10px;
    background-repeat: no-repeat;
-   padding: 12px 20px 12px 48px;
+   padding: 14px 20px 14px 48px;
    transition: width 0.4s ease-in-out;
 }
 

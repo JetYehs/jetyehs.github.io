@@ -24,7 +24,9 @@
    font-size: 16px;
    margin: 8px 0;
    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-   transition: background 0.3s ease, transform 0.2s ease;
+   transition:
+      background 0.3s ease,
+      transform 0.2s ease;
 }
 
 .settings-content h4 {
@@ -59,7 +61,6 @@
    display: none;
 }
 
-/* Shared label styling */
 label[for="gc-disguise-toggle"],
 label[for="christmas-theme-toggle"] {
    display: inline-flex;
@@ -70,7 +71,6 @@ label[for="christmas-theme-toggle"] {
    cursor: pointer;
 }
 
-/* Checkbox box */
 label[for="gc-disguise-toggle"]::before,
 label[for="christmas-theme-toggle"]::before {
    content: "";
@@ -84,10 +84,11 @@ label[for="christmas-theme-toggle"]::before {
    border: 2px solid #f5f5f5;
    border-radius: 4px;
    box-sizing: border-box;
-   transition: background 0.3s ease, border-color 0.3s ease;
+   transition:
+      background 0.3s ease,
+      border-color 0.3s ease;
 }
 
-/* Checked style */
 #gc-disguise-toggle:checked + label::before,
 #christmas-theme-toggle:checked + label::before {
    background: #00c853;
@@ -98,7 +99,6 @@ label[for="christmas-theme-toggle"]::before {
    background-position: center;
 }
 
-/* Optional: focus outline */
 #gc-disguise-toggle:focus + label::before,
 #christmas-theme-toggle:focus + label::before {
    outline: 2px solid rgba(255, 255, 255, 0.5);
