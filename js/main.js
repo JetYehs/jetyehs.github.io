@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
    if (audioPlayer && playPauseIcon) {
       playPauseIcon.addEventListener("click", () => {
          audioPlayer.paused ? audioPlayer.play() : audioPlayer.pause();
-         playPauseIcon.src = `img/${audioPlayer.paused ? "play" : "pause"}.png`;
+         playPauseIcon.src = `assets/${audioPlayer.paused ? "play" : "pause"}.png`;
       });
    }
 
@@ -60,7 +60,7 @@ async function fetchQuotes() {
    const quoteElement = getById("random-quote");
    if (!quoteElement) return;
    try {
-      const quotes = await (await fetch("../media/quotes.json")).json();
+      const quotes = await (await fetch("../assets/media/quotes.json")).json();
       const { quote, author } = quotes[Math.floor(Math.random() * quotes.length)] || {};
       const quoteText = quote ? `"${quote}" - ${author || "Unknown"}` : "No quotes found.";
       quoteElement.textContent = "";

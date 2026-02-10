@@ -3,8 +3,8 @@ document.addEventListener("DOMContentLoaded", () => {
    const checkbox = document.getElementById("christmas-theme-toggle");
 
    const setIcon = (christmas) => {
-      const icon = document.querySelector('.sidebar img[title="icon"]');
-      if (icon) icon.src = `/img/icon${christmas ? "-christmas" : ""}.png`;
+      const icon = document.querySelector('.sidebar assets[title="icon"]');
+      if (icon) icon.src = `/assets/icon${christmas ? "-christmas" : ""}.png`;
    };
 
    const loadScript = (src) => {

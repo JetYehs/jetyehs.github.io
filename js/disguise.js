@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
          link.rel = "icon";
          document.head.appendChild(link);
       }
-      link.href = enable ? "/img/favicon-gc-16x16.png" : "/img/favicon-32x32.png";
+      link.href = enable ? "/assets/favicon-gc-16x16.png" : "/assets/favicon-32x32.png";
    };
 
    const isEnabled = localStorage.getItem("gcDisguise") === "true";
