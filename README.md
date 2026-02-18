@@ -24,7 +24,7 @@ Originial Website:
 ![v5](assets/archive/v5.png)<hr>
 
 <b>V6</b>
-![v6](img/archive/v6.png)<hr>
+![v6](assets/archive/v6.png)<hr>
 
 <b>V7</b>
-![v7](img/archive/v7.png)<hr>
+![v7](assets/archive/v7.png)<hr>
